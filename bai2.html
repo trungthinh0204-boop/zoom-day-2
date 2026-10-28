@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+        h2 {
+            color: black;
+            text-align: center;
+        }
+        #form-dang-ky {
+            width: 400px;
+            border: 1px solid black;
+            padding: 20px;
+            background-color: white;
+            margin: 0 auto; 
+        }
+        label {
+            font-size: 16px;
+        }
+        input {
+            padding: 5px;
+        }
+        .nut-dang-ky {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Đăng ký khóa học</h2>
+    <form id="form-dang-ky">
+        <p>
+            <label>Họ và tên:</label><br>
+            <input type="text">
+        </p>
+        <p>
+            <label>Email:</label><br>
+            <input type="email">
+        </p>
+        <p>
+            <label>Mật khẩu:</label><br>
+            <input type="password">
+        </p>
+        <p>
+            <label>Giới tính:</label><br>
+            <input type="radio" name="gioi-tinh"> Nam
+            <input type="radio" name="gioi-tinh"> Nữ
+        </p>
+        <p>
+            <label>Khóa học:</label><br>
+            <select>
+                <option>HTML/CSS</option>
+                <option>JavaScript</option>
+                <option>ReactJS</option>
+            </select>
+        </p>
+        <p>
+            <label>Ghi chú:</label><br>
+            <textarea rows="4"></textarea>
+        </p>
+        <p>
+            <input type="checkbox"> Tôi đồng ý với điều khoản
+        </p>
+        <button type="submit" class="nut-dang-ky">Đăng ký</button>
+    </form>
+</body>
+</html>
